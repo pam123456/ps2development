@@ -89,3 +89,16 @@ footer {
     background-color: black;
     height: 200px;
 }
+
+.container1{
+    float: right;
+    margin-right: 150px;
+}
+
+.specialisme_container{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    
+
+}

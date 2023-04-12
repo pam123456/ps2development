@@ -42,29 +42,25 @@ header {
     width: 100%;
 }
 
-h1 {
-    color: #5A5A5A;
-    font-family: abril fatface;
-    font-weight: lighter;
-    font-size: 30px;
-}
-
 
 
 /* Main */
 
 .container .rechten a {
     text-decoration: none;
-    color: #767676;
+    color: #5A5A5A;
     font-family: source sans pro;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 350;
+    width: 100px;
 }
 
 .container {
-    width: 180px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
     background-color: #ffffff;
-    border-radius: 20px;
+    border-radius: 25px;
+    opacity: 0.6;
 }
 
 aside {
@@ -75,6 +71,13 @@ aside {
 
 #introductie {
     position: absolute;
+    width: 500px;
+    font-family: source sans pro;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 200;
+    margin-top: 60px;
+    margin-left: 70px;
 }
 
 #item1 {}
@@ -94,15 +97,23 @@ footer {
     height: 200px;
 }
 
-.container1{
+.container1 {
     float: right;
     margin-right: 150px;
+    margin-top: 100px;
 }
 
-.specialisme_container{
+.specialisme_container {
     display: grid;
     gap: 50px;
     grid-template-columns: 1fr 1fr;
-    
+}
 
+#container2 {
+    width: 700px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: #8F9382;
+    margin-top: 100px;
+    position: absolute;
 }

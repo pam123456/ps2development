@@ -47,7 +47,7 @@ footer {
     background-color: #8F9382;
 }
 
-h1 {
+#h1home {
     color: #ffffff;
     font-weight: 200;
     font-family: source sans pro;
@@ -102,3 +102,21 @@ h1 {
     color: #5A5A5A;
 }
 
+p {
+    font-family: sans sans pro;
+}
+
+
+
+.h1paginas {
+    color: #5A5A5A;
+    font-family: abril fatface;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-left: 45vw;
+    position: absolute;
+}
+
+li a image {
+    margin-top: 100px;
+}

@@ -108,6 +108,21 @@ p {
 
 
 
+/* Alle pagina's */
+
+header {
+    background-color: #BFC4AC;
+    height: 100px;
+    width: 100%;
+}
+
+main {
+    background-color: #BFC4AC;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+}
+
 .h1paginas {
     color: #5A5A5A;
     font-family: abril fatface;
@@ -119,4 +134,34 @@ p {
 
 li a image {
     margin-top: 100px;
+}
+
+
+
+
+/* Advocatenhtml */
+
+.container_advocaat {
+    width: 210px;
+    height: 210px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    opacity: 0.6;
+}
+
+
+.containers_advocaten {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.advocatenames {
+    font-family: source sans pro;
+    color: #5A5A5A;
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
 }

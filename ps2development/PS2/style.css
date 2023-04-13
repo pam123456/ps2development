@@ -29,6 +29,34 @@ ul li a {
 }
 
 
+/* Voor alle pagina's */
+
+header {
+    background-color: #BFC4AC;
+    height: 100px;
+    width: 100%;
+}
+
+main {
+    background-color: #BFC4AC;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+}
+
+.h1paginas {
+    color: #5A5A5A;
+    font-family: abril fatface;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-left: 42vw;
+    position: absolute;
+    margin-top: 60px;
+}
+
+li a image {}
+
+
 
 /* Footer */
 
@@ -36,6 +64,9 @@ footer {
     background-color: black;
     height: 200px;
 }
+
+
+
 
 
 
@@ -108,36 +139,6 @@ p {
 
 
 
-/* Alle pagina's */
-
-header {
-    background-color: #BFC4AC;
-    height: 100px;
-    width: 100%;
-}
-
-main {
-    background-color: #BFC4AC;
-    width: 100%;
-    height: 700px;
-    position: absolute;
-}
-
-.h1paginas {
-    color: #5A5A5A;
-    font-family: abril fatface;
-    font-weight: lighter;
-    font-size: 30px;
-    margin-left: 45vw;
-    position: absolute;
-}
-
-li a image {
-    margin-top: 100px;
-}
-
-
-
 
 /* Advocatenhtml */
 
@@ -164,4 +165,14 @@ li a image {
     display: flex;
     justify-content: center;
     margin-top: 170px;
+}
+
+
+
+/* Werkmethodehtml */
+
+.container_werkmethode {
+    width: 600px;
+    height: 900px;
+    background-color: #45554A;
 }

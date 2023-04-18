@@ -56,6 +56,11 @@ main {
 
 li a image {}
 
+p {
+    font-family: source sans pro;
+    color: #ffffff;
+}
+
 
 
 /* Footer */
@@ -133,10 +138,6 @@ footer {
     color: #5A5A5A;
 }
 
-p {
-    font-family: sans sans pro;
-}
-
 
 
 
@@ -172,7 +173,49 @@ p {
 /* Werkmethodehtml */
 
 .container_werkmethode {
-    width: 600px;
-    height: 900px;
-    background-color: #45554A;
+    width: 1300px;
+    height: 1800px;
+    background-color: #8F9382;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.kopjesdiv {
+    display: block;
+    float: left;
+}
+
+.kopjes {
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 70px;
+    max-width: 350px;
+    padding-top: 155px;
+    padding-bottom: 155px;
+
+}
+
+.aside_werkmethode {
+    float: right;
+}
+
+.tekst_werkmethode {
+    font-weight: 200;
+    font-size: 25px;
+    max-width: 500px;
+    margin-right: 50px;
+    margin-top: ;
+}
+
+#introductie_werkmethode {
+    font-weight: 200;
+    text-align: center;
+    margin-top: 150px;
+    color: #5A5A5A;
+    font-size: 20px;
+}
+
+.introductiediv {}

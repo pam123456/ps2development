@@ -254,6 +254,17 @@ footer {
     margin-left: auto;
     margin-right: auto;
     position: absolute;
+
 }
 
 .kopjes_overons {}
+
+.image_thehague {
+    border-radius: 40px;
+    margin-left: 60px;
+}
+
+#historiekop {
+    text-align: right;
+    margin-top: 200px;
+}

@@ -104,3 +104,10 @@ footer {
     margin-top: 100px;
     position: absolute;
 }
+
+.rechten {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    text-align: center;
+}

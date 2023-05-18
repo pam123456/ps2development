@@ -268,3 +268,62 @@ footer {
     text-align: right;
     margin-top: 200px;
 }
+
+
+
+/* Chat */
+
+#container_chat {
+    width: 1300px;
+    height: 800px;
+    background-color: #AFAD93;
+    border-radius: 40px;
+    position: relative;
+}
+
+
+
+/* Contact */
+
+.container_contact {
+
+    background-color: #8F9382;
+    border-radius: 25px;
+
+}
+
+#item1contact {
+    width: 400px;
+    height: 450px;
+    float: right;
+    margin-right: 65px;
+}
+
+#item2contact {
+    width: 870px;
+    height: 160px;
+    margin-left: 65px;
+}
+
+#item3contact {
+    width: 870px;
+    height: 500px;
+    float: left;
+    margin-top: 65px;
+    margin-left: 65px;
+}
+
+#tekst_link_gevangenissen {
+    font-weight: 200;
+    font-size: 22px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+#link_gevangenissen {
+    font-size: 15px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 70px;
+}

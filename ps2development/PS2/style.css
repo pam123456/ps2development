@@ -1,333 +1,209 @@
-body {
-    padding: 0;
+* {
     margin: 0;
-    overflow-x: hidden;
+    padding: 0;
 }
 
+body{
+    font-family: source sans pro;
+}
 
-/* Navigatiebalk */
+header {
+    
+}
 
 nav {
     background-color: #45554A;
-    padding: 14px;
     text-align: center;
     box-shadow: 0 0 3px;
 }
 
-ul li {
-    display: inline;
-    margin-right: 95px;
+nav ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
 }
 
-ul {
-    font-family: source sans pro;
-}
-
-ul li a {
+nav ul li a{
+    padding: 0px 50px;
     text-decoration: none;
     color: #ffffff;
 }
 
-
-/* Voor alle pagina's */
-
-header {
-    background-color: #BFC4AC;
-    height: 100px;
-    width: 100%;
-}
-
 main {
+    /* height: 100vh; */
     background-color: #BFC4AC;
-    width: 100%;
-    height: 1000px;
+    padding-bottom: 25px;
 }
 
-.h1paginas {
+.homemain {
+    background-color: #8F9382;
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 35px;
+    padding-left: 90px;
+    padding-top: 275px;
+}
+
+.topmain {
     color: #5A5A5A;
-    font-family: abril fatface;
-    font-weight: lighter;
     font-size: 30px;
-    margin-left: 42vw;
-    position: absolute;
-    margin-top: 60px;
+    font-weight: lighter;
+    font-family: abril fatface;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
 }
 
-li a image {}
+.middlemain {
+    padding: 0px 50px;
+}
 
-p {
-    font-family: source sans pro;
+.quote {
+    color: #767676;
+    font-style: italic;
+    float: right;
+    font-size: 20px;
+}
+
+.containers_advocaten {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.container_advocaat {
+    width: 210px;
+    background-color: #D9DDCC;
+    border-radius: 25px;
+}
+
+.container_advocaat a {
+    text-decoration: none;
+}
+
+.container_advocaat:hover {
+    background-color: #8F9382;
+}
+
+.advocatenames {
+    color: #5A5A5A;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.contact {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-2-col {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.specialisme {
+    display: flex;
+    width: 250px;
+    height: 150px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    opacity: 0.6;
+    text-decoration: none;
+    color: #5A5A5A;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.grid-col-span-2 {
+    grid-column: span 2;
+}
+
+.container_dark {
+    background-color: #8F9382;
+    border-radius: 30px;
+    padding: 35px 45px;
+    margin: 50px 0px;
     color: #ffffff;
 }
 
 .introductie_teksten {
+    color: #5A5A5A;
     font-weight: 200;
     text-align: center;
-    margin-top: 150px;
-    color: #5A5A5A;
     font-size: 20px;
-}
-
-
-/* Footer */
-
-footer {
-    background-color: black;
-    height: 200px;
-}
-
-
-
-
-
-
-/* Welkom header */
-
-#welkom {
-    width: 100%;
-    height: 350px;
-    background-color: #8F9382;
-}
-
-#h1home {
-    color: #ffffff;
-    font-weight: 200;
-    font-family: source sans pro;
-    margin-left: 90px;
-    margin-top: 275px;
-    position: absolute;
-    font-size: 35px;
-}
-
-
-
-/* Main van homescherm */
-
-#quote {
-    color: #767676;
-    font-family: Source Sans Pro;
-    font-style: italic;
-    font-weight: 200;
-
-    position: absolute;
-    font-size: 20px;
-    float: right;
-}
-
-#main {
-    width: 100%;
-    height: 350px;
-    background-color: #D9DDCC;
-}
-
-#image_home {
-    float: left;
-    margin-left: 100px;
-}
-
-
-
-.chatbox {
-    width: 160px;
-    height: 150px;
-    background-color: #AFAD93;
-    border-radius: 25px;
-    float: right;
-    box-shadow: 0px 3px #767676;
-    margin-top: 150px;
-    margin-right: 50px;
-}
-
-#chat {
-    font-family: Source Sans Pro;
-    font-weight: 200;
-    margin-left: 68px;
-}
-
-#chat a {
-    text-decoration: none;
-    color: #5A5A5A;
-}
-
-
-
-
-/* Advocatenhtml */
-
-.container_advocaat {
-    width: 210px;
-    height: 210px;
-    background-color: #ffffff;
-    border-radius: 25px;
-    opacity: 0.6;
-}
-
-
-.containers_advocaten {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 100px;
-    margin-top: 100px;
-}
-
-.advocatenames {
-    font-family: source sans pro;
-    color: #5A5A5A;
-    display: flex;
-    justify-content: center;
-    margin-top: 170px;
-}
-
-
-
-/* Werkmethodehtml */
-
-.werkmethode_main {
-    background-color: #BFC4AC;
-    width: 100%;
-    height: 2200px;
-    position: absolute;
-}
-
-.container_werkmethode {
-    width: 1300px;
-    height: 1800px;
-    background-color: #8F9382;
-    border-radius: 30px;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.kopjesdiv {
-    display: block;
-    float: left;
+    margin-bottom: 50px;
 }
 
 .kopjes {
     font-weight: 200;
-    font-size: 25px;
-    margin-top: 145px;
-    margin-left: 70px;
-    max-width: 350px;
+    font-size: 24px;
 }
 
-.aside_werkmethode {
-    float: right;
+.tekst {
+    width: 80%;
+    font-size: 16px;
 }
 
-.tekst_werkmethode {
-    font-weight: 200;
-    font-size: 25px;
-    max-width: 650px;
-    margin-right: 60px;
-    margin-top: 200px;
-
-}
-
-
-#kosten {
-    margin-top: 330px;
-}
-
-#interne_klachtregeling {
-    margin-top: 250px;
-}
-
-
-#intakekop {
-    padding-bottom: 320px;
-}
-
-#kostenkop {
-    padding-bottom: 440px;
-}
-
-
-
-
-/* Overonshtml */
-
-.container_overons {
-    width: 1300px;
-    height: 800px;
-    background-color: #8F9382;
-    border-radius: 30px;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-
-}
-
-.kopjes_overons {}
-
-.image_thehague {
-    border-radius: 40px;
-    margin-left: 60px;
-}
-
-#historiekop {
-    text-align: right;
-    margin-top: 200px;
-}
-
-
-
-/* Chat */
-
-#container_chat {
-    width: 1300px;
-    height: 800px;
-    background-color: #AFAD93;
-    border-radius: 40px;
-    position: relative;
-}
-
-
-
-/* Contact */
-
-.container_contact {
-
-    background-color: #8F9382;
+.image {
+    width: 100%;
     border-radius: 25px;
-
 }
 
-#item1contact {
-    width: 400px;
-    height: 450px;
-    float: right;
-    margin-right: 65px;
+.imageholder {
+    border-radius: 25px;
+    width: 80%;
+    height: 168px;
+    overflow: hidden;
+    margin: 20px;
 }
 
-#item2contact {
-    width: 870px;
-    height: 160px;
-    margin-left: 65px;
+#thehague {
+    justify-self: center;
 }
 
-#item3contact {
-    width: 870px;
-    height: 500px;
-    float: left;
-    margin-top: 65px;
-    margin-left: 65px;
+.chatmanHolder {
+    margin: auto;
+    padding: 10px;
+    width: 100px;
 }
 
-#tekst_link_gevangenissen {
-    font-weight: 200;
-    font-size: 22px;
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 70px;
+#chatman {
+    border-radius: 50px;
+    width: 100%;
 }
 
-#link_gevangenissen {
-    font-size: 15px;
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 70px;
+footer{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    background-color: black;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+footer ul{
+    list-style-type: none;
+    align-self: center;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.chatbox {
+    margin: 20px;
+    height: 150px;
+    width: 80%;
+    background-color: #AFAD93;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
 }
